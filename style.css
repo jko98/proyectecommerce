@@ -1,7 +1,37 @@
+.header{
+    background-color: red;
+}
 .h34up{
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: space-between;
     align-items: center;
+}
+.buscador{
+    box-sizing: border-box;
+    width: 50%;
+    display: flex;
+}
+.busca-barra{
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 0.40rem 0.75rem;
+    background-color: white;
+
+}
+.lupa{
+    position: relative;
+    right: 4%;
+    width: 22px;
+}
+.enviar{
+    border: none;
+    background: transparent;
+    position: absolute;
+}
+.lupa, svg{
+    height: 40px;
+    
 }
